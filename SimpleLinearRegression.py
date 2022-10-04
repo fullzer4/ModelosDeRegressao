@@ -4,6 +4,8 @@ from sklearn import linear_model
 import pandas as pd
 import numpy as np
 
+# Preparando dados
+
 df = pd.read_csv("./FuelConsumption.csv")
 
 cdf = df[["ENGINESIZE", "CYLINDERS", "FUELCONSUMPTION_COMB", "CO2EMISSIONS"]]
